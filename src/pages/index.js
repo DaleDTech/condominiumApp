@@ -37,13 +37,8 @@ export default function Home() {
         <PhotoCarousel />
         <CardOne />
         <CardTwo />
-        {/*
-      // Amenenites Card
-      // Floor Plans Card
-      */}
-
-        <Footer />
       </main>
+      <Footer />
     </>
   );
 }
