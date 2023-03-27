@@ -6,7 +6,12 @@ import { Row, Col, Container, Carousel, Card, Nav } from "react-bootstrap";
 import { Twirl as Hamburger } from "hamburger-react";
 
 import styles from "@/styles/Home.module.css";
-import { Logo, Footer, NavDrop } from "./pageComponents/indexComponents.js";
+import {
+  Logo,
+  Footer,
+  NavDrop,
+  PhotoCarousel,
+} from "./pageComponents/indexComponents.js";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,33 +29,19 @@ export default function Home() {
         />
       </Head>
 
-      <Container>
-        <main>
-          <Logo />
-          <NavDrop />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          {/* <Footer /> */}
-          {/* 
+      <main>
+        <Logo />
+        <NavDrop />
+        <PhotoCarousel />
+        {/* 
       
-      
-
-      // Photo Jumbotron
       // Amenenites Card
       // Floor Plans Card
 
-     
-
 
       */}
-        </main>
-      </Container>
+        <Footer />
+      </main>
     </>
   );
 }
