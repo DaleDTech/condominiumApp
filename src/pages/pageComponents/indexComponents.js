@@ -58,11 +58,7 @@ function PhotoCarousel() {
         <Col>
           <Carousel fluid>
             <Carousel.Item>
-              <Image
-                // src="/assets/HomepageCarousel/holdingHands.jpg"
-                alt="First slide"
-                fluid
-              />
+              <Image src="/assets/photos/photo3.jpg" alt="First slide" fluid />
               <Carousel.Caption>
                 <h3>First slide label</h3>
                 <p>
@@ -72,11 +68,7 @@ function PhotoCarousel() {
             </Carousel.Item>
 
             <Carousel.Item>
-              <Image
-                // src="/assets/HomepageCarousel/placeSetting.jpg"
-                alt="First slide"
-                fluid
-              />
+              <Image src="/assets/photos/photo1.jpg" alt="First slide" fluid />
 
               <Carousel.Caption>
                 <h3>Second slide label</h3>
@@ -84,11 +76,7 @@ function PhotoCarousel() {
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              <Image
-                // src="/assets/HomepageCarousel/weddingShoes.jpg"
-                alt="First slide"
-                fluid
-              />
+              <Image src="/assets/photos/photo2.jpg" alt="First slide" fluid />
 
               <Carousel.Caption>
                 <h3>Third slide label</h3>
