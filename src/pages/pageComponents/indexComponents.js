@@ -93,6 +93,48 @@ function PhotoCarousel() {
   );
 }
 
+function CardOne() {
+  return (
+    <Container>
+      <Row>
+        <Col>
+          {" "}
+          <Image src="/assets/photos/photo5.jpg" alt="First slide" fluid />
+        </Col>
+
+        <Col>
+          s ac. Diam quam nulla porttitor massa. A lacus vestibulum sed arcu.
+          Felis donec et odio pellentesque diam volutpat commodo. Sem et tortor
+          consequat id porta nibh venenatis cras. Diam volutpat commodo sed
+          egestas. Varius sit amet mattis vulputate enim nulla aliquet. Nisl
+          suscipit adipiscing bibendum est ultricies. Eros in cursus turpis
+          massa tincidunt dui. Dolor sit amet consectetur adipiscing elit.
+        </Col>
+      </Row>
+    </Container>
+  );
+}
+
+function CardTwo() {
+  return (
+    <Container>
+      <Row>
+        <Col>
+          Ut enim blandit volutpat maecenas volutpat blandit. Enim diam
+          vulputate ut pharetra sit. Diam donec adipiscing tristique risus nec
+          feugiat in fermentum. Bibendum neque egestas congue quisque egestas
+          diam in arcu. Ante metus dictum at tempor commodo ullamcorper a lacus.
+        </Col>
+
+        <Col>
+          {" "}
+          <Image src="/assets/photos/photo6.jpg" alt="First slide" fluid />
+        </Col>
+      </Row>
+    </Container>
+  );
+}
+
 // function NavBar() {
 //   return (
 //     <Nav>
@@ -140,4 +182,4 @@ function Footer() {
 }
 
 // 👇️ named exports
-export { NavDrop, Logo, Footer, PhotoCarousel };
+export { NavDrop, Logo, Footer, PhotoCarousel, CardOne, CardTwo };

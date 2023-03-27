@@ -11,6 +11,8 @@ import {
   Footer,
   NavDrop,
   PhotoCarousel,
+  CardOne,
+  CardTwo,
 } from "./pageComponents/indexComponents.js";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -33,13 +35,13 @@ export default function Home() {
         <Logo />
         <NavDrop />
         <PhotoCarousel />
-        {/* 
-      
+        <CardOne />
+        <CardTwo />
+        {/*
       // Amenenites Card
       // Floor Plans Card
-
-
       */}
+
         <Footer />
       </main>
     </>
