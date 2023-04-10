@@ -65,7 +65,15 @@ function Footer() {
       </Container>
     </footer>
   );
-}
+  function Masthead() {
+    return <>{/* A Masthead summarizing available units */}</>;
+  }
+  
+  function AvailableUnits() {
+    return <>{/* BootstrapGrid of available Units */}</>;
+  }
+  
+  // 👇️ named exports
+  export { NavBar, Logo, EmailForm, Footer, Masthead, AvailableUnits };
+  
 
-// 👇️ named exports
-export { NavBar, Logo, EmailForm, Footer };
