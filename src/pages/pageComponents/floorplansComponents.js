@@ -16,37 +16,35 @@ import {
   Nav,
 } from "react-bootstrap";
 
-unction NavBar() {
+function NavDrop() {
   return (
-    <Nav className={navStyle}>
+    <Nav>
       <Link href="undefined">
-        <span className={navLinks}> Home </span>
+        <span> Home </span>
       </Link>
 
       <Link href="undefined">
-        <span className={navLinks}> About Us </span>
+        <span> About Us </span>
       </Link>
 
       <Link href="undefined">
-        <span className={navLinks}> Our Wedding Photographers </span>
+        <span> Our Wedding Photographers </span>
       </Link>
 
       <Link href="undefined">
-        <span className={navLinks}>BOOK FOR YOUR WEDDING</span>
+        <span>BOOK FOR YOUR WEDDING</span>
       </Link>
     </Nav>
   );
 }
 
 function Logo() {
-  return <h1 className={logoStyle}> Wedding Photographs, LLC </h1>;
+  return <h1> Luxury Condo, LLC </h1>;
 }
-
-
 
 function Footer() {
   return (
-    <footer className={footerStyle}>
+    <footer>
       <Container>
         <Row>
           <Col>
@@ -65,15 +63,60 @@ function Footer() {
       </Container>
     </footer>
   );
-  function Masthead() {
-    return <>{/* A Masthead summarizing available units */}</>;
-  }
-  
-  function AvailableUnits() {
-    return <>{/* BootstrapGrid of available Units */}</>;
-  }
-  
-  // 👇️ named exports
-  export { NavBar, Logo, EmailForm, Footer, Masthead, AvailableUnits };
-  
+}
+function Masthead() {
+  return (
+    <>
+      <h1> Your Oasis Awaits (curasive )</h1>
+      <p>
+        This is will be a styled card with a shadow Mauris pellentesque lacus
+        sit amet urna hendrerit, a ornare nisl facilisis. Aliquam erat volutpat.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in
+        nulla sapien
+      </p>
+    </>
+  );
+}
 
+function AvailableUnits() {
+  return (
+    <>
+      {/* gallery component */}
+      <Container fluid>
+        //need to credit authors
+        <Row>
+          <Col xs="6" md="4">
+            <Image src="/assets/images/photo1.jpg" fluid />
+          </Col>
+          <Col xs="6" md="4">
+            <Image src="/assets/images/photo2.jpg" fluid />
+          </Col>
+
+          <Col xs="12" md="4">
+            <Image src="/assets/images/photo6.jpg" fluid />
+          </Col>
+        </Row>
+        <Row>
+          <Col xs="12" md="4">
+            <Image src="/assets/images/photo3.jpg" fluid />
+          </Col>
+          <Col xs="6" md="4">
+            <Image
+              src="/assets/images/photo4.jpg"
+              // className={styles.imageBorder}
+              fluid
+            />
+          </Col>
+          <Col xs="12" md="4">
+            <Image
+              src="/assets/images/photo5.jpg"
+              // className={styles.imageBorder}
+              fluid
+            />
+          </Col>
+        </Row>
+      </Container>
+    </>
+  );
+} // 👇️ named exports
+export { NavDrop, Logo, Footer, Masthead, AvailableUnits };

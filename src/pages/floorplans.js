@@ -6,14 +6,14 @@ import { Row, Col, Container, Carousel, Card, Nav } from "react-bootstrap";
 import { Twirl as Hamburger } from "hamburger-react";
 
 import styles from "@/styles/Home.module.css";
-// import {
-//   Logo,
-//   Footer,
-//   NavDrop,
-//   PhotoCarousel,
-//   CardOne,
-//   CardTwo,
-// } from "./pageComponents/indexComponents.js";
+import {
+  NavDrop,
+  Logo,
+  EmailForm,
+  Footer,
+  Masthead,
+  AvailableUnits,
+} from "./pageComponents/floorplansComponents.js";
 
 // const inter = Inter({ subsets: ["latin"] });
 
@@ -38,7 +38,9 @@ export default function Home() {
         <CardOne />
         <CardTwo /> */}
 
-        {/* <Masthead /> <AvailableUnits />  */}
+        <Masthead />
+
+        <AvailableUnits />
       </main>
       <Footer />
     </>
