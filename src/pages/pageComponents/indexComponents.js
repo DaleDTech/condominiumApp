@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import Link from "next/link";
 import Router from "next/router";
-
+import styles from "@/styles/Home.module.css";
 import {
   Image,
   Button,
@@ -163,7 +163,7 @@ function Logo() {
 
 function Footer() {
   return (
-    <footer>
+    <footer className={styles.footer}>
       <Container>
         <Row>
           <Col> Copyrights © Luxury Condo Sales + Rentals 2023</Col>

@@ -38,7 +38,7 @@ export default function Home() {
         <CardOne />
         <CardTwo />
       </main>
-      <Footer />
+      <Footer className={styles.footer} />
     </>
   );
 }

@@ -6,6 +6,7 @@ import { Row, Col, Container, Carousel, Card, Nav } from "react-bootstrap";
 import { Twirl as Hamburger } from "hamburger-react";
 
 import styles from "@/styles/Home.module.css";
+
 import {
   NavDrop,
   Logo,
@@ -34,14 +35,12 @@ export default function Home() {
       <main>
         <Logo />
         <NavDrop />
-        {/* <PhotoCarousel />
-        <CardOne />
-        <CardTwo /> */}
 
         <Masthead />
 
-        <AvailableUnits />
+        {/* <AvailableUnits /> */}
       </main>
+
       <Footer />
     </>
   );
