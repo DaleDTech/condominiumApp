@@ -1,9 +1,24 @@
 .footer {
   position: fixed; /* Set the navbar to fixed position */
   background-color: chocolate;
-  
   bottom: 0; /* Position the navbar at the bottom of the page */
   width: 100%; /* Full width */
+}
+
+.header{
+  position: fixed; /* Set the navbar to fixed position */
+  background-color: chocolate;
+  top: 0; /* Position the navbar at the bottom of the page */
+  width: 100%; /* Full width */
+
+}
+
+.guideBorder{
+
+  border-style: solid;
+  border-color: greenyellow;
+  border-width: 6.9px;
+
 }
 
 

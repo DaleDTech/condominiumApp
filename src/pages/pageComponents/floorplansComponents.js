@@ -16,26 +16,43 @@ import {
   Jumbotron,
   Container,
   Nav,
+  NavDropdown,
 } from "react-bootstrap";
 
 function NavDrop() {
+  const handleSelect = (eventKey) => alert(`selected ${eventKey}`);
+
   return (
-    <Nav>
-      <Link href="undefined">
-        <span> Home </span>
-      </Link>
-
-      <Link href="undefined">
-        <span> About Us </span>
-      </Link>
-
-      <Link href="undefined">
-        <span> Our Wedding Photographers </span>
-      </Link>
-
-      <Link href="undefined">
-        <span>BOOK FOR YOUR WEDDING</span>
-      </Link>
+    <Nav
+      className={`${styles.header} ${styles.guideBorder}`}
+      variant="pills"
+      activeKey="1"
+      onSelect={handleSelect}
+    >
+      <Nav.Item>
+        <Nav.Link eventKey="1" href="#/home">
+          Home
+        </Nav.Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Nav.Link eventKey="2" title="condos">
+          Available Condos
+        </Nav.Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Nav.Link eventKey="3" title="Contact">
+          Contact
+        </Nav.Link>
+      </Nav.Item>
+      <NavDropdown title="Dropdown" id="nav-dropdown">
+        <NavDropdown.Item eventKey="4.1">Mission Statement</NavDropdown.Item>
+        <NavDropdown.Item eventKey="4.2">Tenant Login</NavDropdown.Item>
+        <NavDropdown.Item eventKey="4.3">
+          Neighboor + Nightlife
+        </NavDropdown.Item>
+        <NavDropdown.Divider />
+        <NavDropdown.Item eventKey="4.4">SPECIAL OFFER</NavDropdown.Item>
+      </NavDropdown>
     </Nav>
   );
 }
@@ -46,7 +63,8 @@ function Logo() {
 
 function Footer() {
   return (
-    <footer className={styles.footer}>
+    // https://stackoverflow.com/questions/33949469/using-css-modules-how-do-i-define-more-than-one-style-name
+    <footer className={`${styles.footer} ${styles.guideBorder}`}>
       <Container>
         <Row>
           <Col>

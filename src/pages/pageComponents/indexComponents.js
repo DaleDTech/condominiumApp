@@ -23,7 +23,12 @@ function NavDrop() {
   const handleSelect = (eventKey) => alert(`selected ${eventKey}`);
 
   return (
-    <Nav variant="pills" activeKey="1" onSelect={handleSelect}>
+    <Nav
+      className={`${styles.header} ${styles.guideBorder}`}
+      variant="pills"
+      activeKey="1"
+      onSelect={handleSelect}
+    >
       <Nav.Item>
         <Nav.Link eventKey="1" href="#/home">
           Home
@@ -163,7 +168,7 @@ function Logo() {
 
 function Footer() {
   return (
-    <footer className={styles.footer}>
+    <footer className={`${styles.footer} ${styles.guideBorder}`}>
       <Container>
         <Row>
           <Col> Copyrights © Luxury Condo Sales + Rentals 2023</Col>
