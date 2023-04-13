@@ -1,5 +1,6 @@
 .footer {
-  position: fixed; /* Set the navbar to fixed position */
+  /* position: fixed;  */
+  /* Set the navbar to fixed position */
   background-color: chocolate;
   bottom: 0; /* Position the navbar at the bottom of the page */
   width: 100%; /* Full width */
@@ -13,6 +14,44 @@
 
 }
 
+.indexCarousel{
+
+
+}
+
+.indexCards {
+
+
+}
+
+.contactConctactForm{
+
+
+}
+
+.floorplanMasthead{
+
+
+}
+
+.floorplanGrid{ 
+
+
+}
+
+.dashboardLogin{
+
+
+}
+
+.maintanenceContactForm{
+
+
+}
+
+. 
+
+
 .guideBorder{
 
   border-style: solid;
@@ -20,6 +59,7 @@
   border-width: 6.9px;
 
 }
+
 
 
 /* 

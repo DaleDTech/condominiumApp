@@ -15,8 +15,6 @@ import {
   CardTwo,
 } from "./pageComponents/indexComponents.js";
 
-const inter = Inter({ subsets: ["latin"] });
-
 export default function Home() {
   return (
     <>
@@ -38,6 +36,7 @@ export default function Home() {
         <CardOne />
         <CardTwo />
       </main>
+
       <Footer className={styles.footer} />
     </>
   );
