@@ -1,7 +1,7 @@
 .footer {
   /* position: fixed;  */
   /* Set the navbar to fixed position */
-  background-color: chocolate;
+  background-color:rgb(232, 255, 212);
   bottom: 0; /* Position the navbar at the bottom of the page */
   width: 100%; /* Full width */
 }
