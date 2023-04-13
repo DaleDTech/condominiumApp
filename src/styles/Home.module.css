@@ -16,40 +16,46 @@
 
 .indexCarousel{
 padding: 15px;
+filter: drop-shadow(38px 32px 65px #7A7979);
 
 }
 
 .indexCards {
+  padding: 15px;
+  filter: drop-shadow(38px 32px 65px #7A7979);
 
 
 }
 
 .contactConctactForm{
-
-
+  padding: 15px;
+  filter: drop-shadow(38px 32px 65px #7A7979);
 }
 
 .floorplanMasthead{
-
-
+  padding: 15px;
+  filter: drop-shadow(38px 32px 65px #7A7979);
 }
 
 .floorplanGrid{ 
 
-
+  padding: 15px;
+  filter: drop-shadow(38px 32px 65px #7A7979);
 }
 
 .dashboardLogin{
 
-
+  padding: 15px;
+  filter: drop-shadow(38px 32px 65px #7A7979);
 }
 
 .maintanenceContactForm{
-
+  padding: 15px;
+  filter: drop-shadow(38px 32px 65px #7A7979);
 
 }
 
-. 
+
 
 
 .guideBorder{
