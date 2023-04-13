@@ -8,7 +8,7 @@
 
 .header{
   position: fixed; /* Set the navbar to fixed position */
-  background-color: chocolate;
+  background-color: rgb(232, 255, 212);
   top: 0; /* Position the navbar at the bottom of the page */
   width: 100%; /* Full width */
 
@@ -16,7 +16,6 @@
 
 .indexCarousel{
 padding: 15px;
-
 
 }
 
