@@ -87,7 +87,10 @@ function Footer() {
 function Masthead() {
   return (
     <>
-      <h1> Your Oasis Awaits (curasive )</h1>
+      <h1 className={`${styles.floorplanGrid} ${styles.guideBorder}`}>
+        {" "}
+        Your Oasis Awaits (curasive )
+      </h1>
       <p>
         This is will be a styled card with a shadow Mauris pellentesque lacus
         sit amet urna hendrerit, a ornare nisl facilisis. Aliquam erat volutpat.
@@ -102,7 +105,10 @@ function AvailableUnits() {
   return (
     <>
       {/* gallery component */}
-      <Container fluid>
+      <Container
+        className={`${styles.floorplanMasthead} ${styles.guideBorder}`}
+        fluid
+      >
         //need to credit authors
         <Row>
           <Col xs="6" md="4">
