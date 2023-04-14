@@ -16,9 +16,9 @@ import {
   Nav,
 } from "react-bootstrap";
 
-unction NavBar() {
+function NavBar() {
   return (
-    <Nav className={navStyle}>
+    <Nav className={`${styles.header} ${styles.guideBorder}`}>
       <Link href="undefined">
         <span className={navLinks}> Home </span>
       </Link>
@@ -39,14 +39,12 @@ unction NavBar() {
 }
 
 function Logo() {
-  return <h1 className={logoStyle}> Wedding Photographs, LLC </h1>;
+  return <h1 className={`${styles.logo}`}> Wedding Photographs, LLC </h1>;
 }
-
-
 
 function Footer() {
   return (
-    <footer className={footerStyle}>
+    <footer className={`${styles.footer} ${styles.guideBorder}`}>
       <Container>
         <Row>
           <Col>
@@ -67,5 +65,21 @@ function Footer() {
   );
 }
 
+function contactForm() {
+  return (
+    <Form className={`${styles.contactConctactForm} ${styles.guideBorder}`}>
+      <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+        <Form.Label>Email address</Form.Label>
+        <Form.Control type="email" placeholder="name@example.com" />
+      </Form.Group>
+      <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+        <Form.Label>Example textarea</Form.Label>
+        {/* how to create a text area with space */}
+        <Form.Control as="textarea" rows={3} />
+      </Form.Group>
+    </Form>
+  );
+}
+
 // 👇️ named exports
-export { NavBar, Logo, EmailForm, Footer };
+export { NavBar, Logo, EmailForm, Footer, contactForm };
