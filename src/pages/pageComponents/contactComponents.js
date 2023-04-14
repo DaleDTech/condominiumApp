@@ -65,6 +65,7 @@ function Footer() {
   );
 }
 
+// https://react-bootstrap.github.io/forms/form-control/
 function contactForm() {
   return (
     <Form className={`${styles.contactConctactForm} ${styles.guideBorder}`}>
