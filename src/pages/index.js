@@ -37,7 +37,7 @@ export default function Home() {
         <CardTwo />
       </main>
 
-      <Footer className={styles.footer} />
+      <Footer />
     </>
   );
 }
