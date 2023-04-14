@@ -5,19 +5,14 @@ import { Row, Col, Container, Carousel, Card, Nav } from "react-bootstrap";
 //button in dropdown wrapper
 import { Twirl as Hamburger } from "hamburger-react";
 
-import styles from "@/styles/Home.module.css";
-
 import {
   NavDrop,
   Logo,
-  EmailForm,
   Footer,
-  Masthead,
-  AvailableUnits,
   ContactForm,
 } from "./pageComponents/contactComponents.js";
 
-export default function contact() {
+export default function Contact() {
   return (
     <>
       <Head>

@@ -10,10 +10,8 @@ import styles from "@/styles/Home.module.css";
 import {
   NavDrop,
   Logo,
-  EmailForm,
   Footer,
   Masthead,
-  AvailableUnits,
 } from "./pageComponents/floorplansComponents.js";
 
 // const inter = Inter({ subsets: ["latin"] });
@@ -37,8 +35,6 @@ export default function Floorplans() {
         <Logo />
 
         <Masthead />
-
-        {/* <AvailableUnits /> */}
       </main>
 
       <Footer />

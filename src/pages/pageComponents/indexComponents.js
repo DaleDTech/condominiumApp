@@ -24,36 +24,26 @@ function NavDrop() {
   const handleSelect = (eventKey) => alert(`selected ${eventKey}`);
 
   return (
-    <Nav
-      className={`${styles.header} ${styles.guideBorder}`}
-      variant="pills"
-      activeKey="1"
-      onSelect={handleSelect}
-    >
-      <Nav.Item>
-        <Nav.Link eventKey="1" href="#/home">
-          Home
-        </Nav.Link>
-      </Nav.Item>
-      <Nav.Item>
-        <Nav.Link eventKey="2" title="condos">
-          Available Condos
-        </Nav.Link>
-      </Nav.Item>
-      <Nav.Item>
-        <Nav.Link eventKey="3" title="Contact">
-          Contact
-        </Nav.Link>
-      </Nav.Item>
-      <NavDropdown title="Dropdown" id="nav-dropdown">
-        <NavDropdown.Item eventKey="4.1">Mission Statement</NavDropdown.Item>
-        <NavDropdown.Item eventKey="4.2">Tenant Login</NavDropdown.Item>
-        <NavDropdown.Item eventKey="4.3">
-          Neighboor + Nightlife
-        </NavDropdown.Item>
-        <NavDropdown.Divider />
-        <NavDropdown.Item eventKey="4.4">SPECIAL OFFER</NavDropdown.Item>
-      </NavDropdown>
+    <Nav className={`${styles.header} ${styles.guideBorder}`}>
+      <Link href="undefined">
+        <span> Home </span>
+      </Link>
+
+      <Link href="undefined">
+        <span> About Us </span>
+      </Link>
+
+      <Link href="undefined">
+        <span> Our Availability </span>
+      </Link>
+
+      <Link href="undefined">
+        <span> Our Availability </span>
+      </Link>
+
+      <Link href="undefined">
+        <span>LOGO</span>
+      </Link>
     </Nav>
   );
 }

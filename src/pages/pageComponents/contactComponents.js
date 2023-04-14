@@ -16,23 +16,29 @@ import {
   Nav,
 } from "react-bootstrap";
 
-function NavBar() {
+import styles from "@/styles/Home.module.css";
+
+function NavDrop() {
   return (
     <Nav className={`${styles.header} ${styles.guideBorder}`}>
       <Link href="undefined">
-        <span className={navLinks}> Home </span>
+        <span> Home </span>
       </Link>
 
       <Link href="undefined">
-        <span className={navLinks}> About Us </span>
+        <span> About Us </span>
       </Link>
 
       <Link href="undefined">
-        <span className={navLinks}> Our Wedding Photographers </span>
+        <span> Our Availability </span>
       </Link>
 
       <Link href="undefined">
-        <span className={navLinks}>BOOK FOR YOUR WEDDING</span>
+        <span> Our Availability </span>
+      </Link>
+
+      <Link href="undefined">
+        <span>LOGO</span>
       </Link>
     </Nav>
   );
@@ -83,4 +89,4 @@ function ContactForm() {
 }
 
 // 👇️ named exports
-export { NavBar, Logo, EmailForm, Footer, ContactForm };
+export { NavDrop, Logo, Footer, ContactForm };
