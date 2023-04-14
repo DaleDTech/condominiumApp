@@ -33,8 +33,8 @@ export default function Floorplans() {
       </Head>
 
       <main>
-        <Logo />
         <NavDrop />
+        <Logo />
 
         <Masthead />
 

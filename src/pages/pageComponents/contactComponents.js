@@ -66,7 +66,7 @@ function Footer() {
 }
 
 // https://react-bootstrap.github.io/forms/form-control/
-function contactForm() {
+function ContactForm() {
   return (
     <Form className={`${styles.contactConctactForm} ${styles.guideBorder}`}>
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
@@ -83,4 +83,4 @@ function contactForm() {
 }
 
 // 👇️ named exports
-export { NavBar, Logo, EmailForm, Footer, contactForm };
+export { NavBar, Logo, EmailForm, Footer, ContactForm };
