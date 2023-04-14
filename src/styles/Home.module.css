@@ -1,5 +1,5 @@
 .footer {
-  /* position: fixed;   */
+  position: sticky;  
   /* Set the navbar to fixed position */
   background-color:rgb(232, 255, 212);
   bottom: 0; /* Position the navbar at the bottom of the page */
