@@ -75,11 +75,11 @@ function Footer() {
 function AboutUsSummary() {
   return (
     <>
-      <Container>
+      <Container className={`${styles.aboutUs} ${styles.guideBorder}`}>
         <h1> ABOUT US (cursive )</h1>
       </Container>
 
-      <Container>
+      <Container className={`${styles.aboutUs} ${styles.guideBorder}`}>
         <span>
           <p>
             Morbi dapibus placerat lorem, vitae interdum justo lobortis vel.
