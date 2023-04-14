@@ -19,6 +19,7 @@ import {
 } from "react-bootstrap";
 
 // https://react-bootstrap.github.io/components/navs/
+
 function NavDrop() {
   const handleSelect = (eventKey) => alert(`selected ${eventKey}`);
 
@@ -58,7 +59,7 @@ function NavDrop() {
 }
 function PhotoCarousel() {
   return (
-    <Container>
+    <Container className={`${styles.indexCarousel} ${styles.guideBorder}`}>
       <Row>
         <Col>
           <Carousel fluid>
@@ -100,7 +101,7 @@ function PhotoCarousel() {
 
 function CardOne() {
   return (
-    <Container>
+    <Container className={`${styles.indexCards} ${styles.guideBorder}`}>
       <Row>
         <Col>
           {" "}
@@ -122,7 +123,7 @@ function CardOne() {
 
 function CardTwo() {
   return (
-    <Container>
+    <Container className={`${styles.indexCards} ${styles.guideBorder}`}>
       <Row>
         <Col>
           Ut enim blandit volutpat maecenas volutpat blandit. Enim diam
@@ -163,7 +164,12 @@ function CardTwo() {
 // }
 
 function Logo() {
-  return <h1> Luxury Condo Management </h1>;
+  return (
+    <h1 className={`${styles.logo} ${styles.guideBorder}`}>
+      {" "}
+      Luxury Condo Management{" "}
+    </h1>
+  );
 }
 
 function Footer() {
