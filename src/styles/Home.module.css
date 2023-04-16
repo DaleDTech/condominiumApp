@@ -82,13 +82,11 @@
   filter: drop-shadow(38px 32px 65px #7A7979);
   border-radius: 30px;
   z-index: -3;
-
 }
 
 .guideBorder{
-
   border-style: solid;
-  border-color: rgb(0, 0, 0);
+  border-color: rgb(98, 0, 0);
   border-width: 3.5px;
 }
 

@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
+import Script from "next/script";
+
 import { Inter } from "next/font/google";
 import { Row, Col, Container, Carousel, Card, Nav } from "react-bootstrap";
 //button in dropdown wrapper
@@ -28,7 +30,6 @@ export default function Home() {
           crossorigin="anonymous"
         />
       </Head>
-
       <main>
         <Logo />
         <NavDrop />
@@ -36,6 +37,12 @@ export default function Home() {
         <CardOne />
         <CardTwo />
       </main>
+      <Script
+        type="text/javascript"
+        src="./scripts/testScript.js"
+        strategy="lazyOnload"
+      />
+      {console.log("Test Console")}
 
       <Footer />
     </>
