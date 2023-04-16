@@ -37,11 +37,7 @@ export default function Home() {
         <CardOne />
         <CardTwo />
       </main>
-      <Script
-        type="text/javascript"
-        src="./scripts/testScript.js"
-        strategy="lazyOnload"
-      />
+      <Script src="./scripts/testScript.js" />
       {console.log("Test Console")}
 
       <Footer />
