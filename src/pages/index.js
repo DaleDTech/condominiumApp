@@ -20,6 +20,8 @@ import {
 
 import { popUp, checkCashRegister } from "./scripts/testScript.js";
 
+import { msg, PI, addNumbers } from "./scripts/testScript2.js";
+
 function createTitle(title) {
   if (title) {
     return title;
@@ -248,6 +250,9 @@ export default function Home() {
 
       {/* can use function imported as a module up top */}
       {popUp()}
+
+      {/* how to use a JS file with various exported vals */}
+      {console.log(addNumbers(100, 10))}
 
       <Footer />
     </>
