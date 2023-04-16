@@ -150,5 +150,7 @@ function checkCashRegister(price, cash, cid) {
 }
 
 function popUp() {
-  return window.alert("Script executes when function is called");
+  return console.log("popup works");
 }
+
+export { popUp, checkCashRegister };
