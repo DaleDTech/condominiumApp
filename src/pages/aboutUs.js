@@ -7,7 +7,6 @@ import { Twirl as Hamburger } from "hamburger-react";
 
 import {
   NavDrop,
-  Logo,
   Footer,
   AboutUsSummary,
 } from "./pageComponents/aboutUsComponents.js";
@@ -28,7 +27,6 @@ export default function AboutUs() {
 
       <main>
         <NavDrop />
-        <Logo />
 
         <AboutUsSummary />
       </main>

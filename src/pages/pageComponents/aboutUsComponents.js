@@ -20,32 +20,28 @@ import styles from "@/styles/Home.module.css";
 
 function NavDrop() {
   return (
-    <Nav className={`${styles.header} ${styles.guideBorder}`}>
+    <Nav className={styles.header}>
       <Link href="undefined">
-        <span> Home </span>
+        <span className={styles.navLinks}> Home </span>
       </Link>
 
       <Link href="undefined">
-        <span> About Us </span>
+        <span className={styles.navLinks}> Floorplans </span>
       </Link>
 
       <Link href="undefined">
-        <span> Our Availability </span>
+        <span className={styles.navLinks}> Tenant Login </span>
       </Link>
 
       <Link href="undefined">
-        <span> Our Availability </span>
+        <span className={styles.navLinks}> About Us </span>
       </Link>
 
       <Link href="undefined">
-        <span>LOGO</span>
+        <span className={styles.navLinks}> LUXURY CONDO LOGO </span>
       </Link>
     </Nav>
   );
-}
-
-function Logo() {
-  return <h1 className={`${styles.logo}`}> Wedding Photographs, LLC </h1>;
 }
 
 function Footer() {
@@ -96,4 +92,4 @@ function AboutUsSummary() {
 }
 
 // 👇️ named exports
-export { NavDrop, Logo, Footer, AboutUsSummary };
+export { NavDrop, Footer, AboutUsSummary };
