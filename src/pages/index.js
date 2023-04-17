@@ -18,9 +18,9 @@ import {
   CardTwo,
 } from "./pageComponents/indexComponents.js";
 
-import { popUp, checkCashRegister } from "./scripts/testScript.js";
-
-import { msg, PI, addNumbers } from "./scripts/testScript2.js";
+// how to import JS files with Exports
+// import { popUp, checkCashRegister } from "./scripts/testScript.js";
+// import { msg, PI, addNumbers } from "./scripts/testScript2.js";
 
 function createTitle(title) {
   if (title) {
@@ -47,6 +47,8 @@ export default function Home() {
           crossorigin="anonymous"
         />
       </Head>
+
+      {/* Inline JS with Script Components
 
       <Script id="testInlineScript" strategy="afterInteractive">
         {`function checkCashRegister(price, cash, cid) {
@@ -200,7 +202,6 @@ export default function Home() {
   console.log("---------------");
 }`}
       </Script>
-
       <Script id="testInlineScript2" strategy="afterInteractive">
         {`
         function shortFunction(){
@@ -208,16 +209,15 @@ export default function Home() {
 
         }
       `}
-      </Script>
+      </Script> */}
 
       <main>
         <Logo />
         <NavDrop />
         <PhotoCarousel />
-
         <p>Click the following button to see the function in action</p>
-
-        <button
+        {/* // implement inline script from Script component above */}
+        {/* <button
           onClick={() =>
             console.log(
               checkCashRegister(19.5, 20, [
@@ -235,24 +235,15 @@ export default function Home() {
           }
         >
           Click me!
-        </button>
-
-        <button onClick={() => alert(shortFunction())}>
+        </button> */}
+        {/* // implementing an inline dom function in, and feed it an imported function */}
+        {/* <button onClick={() => alert(shortFunction())}>
           Click me for script #2!
-        </button>
-
+        </button> */}
+        // regular components
         <CardOne />
         <CardTwo />
       </main>
-
-      {/* can use function made in index.js */}
-      {console.log(createTitle("Maverick"))}
-
-      {/* can use function imported as a module up top */}
-      {popUp()}
-
-      {/* how to use a JS file with various exported vals */}
-      {console.log(addNumbers(100, 10))}
 
       <Footer />
     </>
