@@ -212,7 +212,7 @@ export default function Home() {
       </Script> */}
 
       <main>
-        <Logo />
+        {/* <Logo /> */}
         <NavDrop />
         <PhotoCarousel />
         <p>Click the following button to see the function in action</p>

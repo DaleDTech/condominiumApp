@@ -89,76 +89,60 @@ function PhotoCarousel() {
 
 function CardOne() {
   return (
-    <Container className={`${styles.indexCards} ${styles.guideBorder}`}>
-      <Row>
-        <Col>
-          {" "}
-          <Image src="/assets/photos/photo5.jpg" alt="First slide" fluid />
-        </Col>
+    <Card className={`${styles.indexCards} ${styles.guideBorder}`}>
+      <Container>
+        <Row>
+          <Col>
+            {" "}
+            <Image src="/assets/photos/photo5.jpg" alt="First slide" fluid />
+          </Col>
 
-        <Col>
-          s ac. Diam quam nulla porttitor massa. A lacus vestibulum sed arcu.
-          Felis donec et odio pellentesque diam volutpat commodo. Sem et tortor
-          consequat id porta nibh venenatis cras. Diam volutpat commodo sed
-          egestas. Varius sit amet mattis vulputate enim nulla aliquet. Nisl
-          suscipit adipiscing bibendum est ultricies. Eros in cursus turpis
-          massa tincidunt dui. Dolor sit amet consectetur adipiscing elit.
-        </Col>
-      </Row>
-    </Container>
+          <Col>
+            s ac. Diam quam nulla porttitor massa. A lacus vestibulum sed arcu.
+            Felis donec et odio pellentesque diam volutpat commodo. Sem et
+            tortor consequat id porta nibh venenatis cras. Diam volutpat commodo
+            sed egestas. Varius sit amet mattis vulputate enim nulla aliquet.
+            Nisl suscipit adipiscing bibendum est ultricies. Eros in cursus
+            turpis massa tincidunt dui. Dolor sit amet consectetur adipiscing
+            elit.
+          </Col>
+        </Row>
+      </Container>
+    </Card>
   );
 }
 
 function CardTwo() {
   return (
-    <Container className={`${styles.indexCards} ${styles.guideBorder}`}>
-      <Row>
-        <Col>
-          Ut enim blandit volutpat maecenas volutpat blandit. Enim diam
-          vulputate ut pharetra sit. Diam donec adipiscing tristique risus nec
-          feugiat in fermentum. Bibendum neque egestas congue quisque egestas
-          diam in arcu. Ante metus dictum at tempor commodo ullamcorper a lacus.
-        </Col>
+    <Card className={`${styles.indexCards} ${styles.guideBorder}`}>
+      <Container>
+        <Row>
+          <Col>
+            Ut enim blandit volutpat maecenas volutpat blandit. Enim diam
+            vulputate ut pharetra sit. Diam donec adipiscing tristique risus nec
+            feugiat in fermentum. Bibendum neque egestas congue quisque egestas
+            diam in arcu. Ante metus dictum at tempor commodo ullamcorper a
+            lacus.
+          </Col>
 
-        <Col>
-          {" "}
-          <Image src="/assets/photos/photo6.jpg" alt="First slide" fluid />
-        </Col>
-      </Row>
-    </Container>
+          <Col>
+            {" "}
+            <Image src="/assets/photos/photo6.jpg" alt="First slide" fluid />
+          </Col>
+        </Row>
+      </Container>
+    </Card>
   );
 }
 
-// function NavBar() {
+// function Logo() {
 //   return (
-//     <Nav>
-//       <Link href="undefined">
-//         <span> Home </span>
-//       </Link>
-
-//       <Link href="undefined">
-//         <span> About Us </span>
-//       </Link>
-
-//       <Link href="undefined">
-//         <span> Our Wedding Photographers </span>
-//       </Link>
-
-//       <Link href="undefined">
-//         <span>BOOK FOR YOUR WEDDING</span>
-//       </Link>
-//     </Nav>
+//     <h1 className={`${styles.logo} ${styles.guideBorder}`}>
+//       {" "}
+//       Luxury Condo Management{" "}
+//     </h1>
 //   );
 // }
-
-function Logo() {
-  return (
-    <h1 className={`${styles.logo} ${styles.guideBorder}`}>
-      {" "}
-      Luxury Condo Management{" "}
-    </h1>
-  );
-}
 
 function Footer() {
   return (
@@ -181,4 +165,4 @@ function Footer() {
 }
 
 // 👇️ named exports
-export { NavDrop, Logo, Footer, PhotoCarousel, CardOne, CardTwo };
+export { NavDrop, Footer, PhotoCarousel, CardOne, CardTwo };

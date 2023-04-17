@@ -9,12 +9,10 @@ import styles from "@/styles/Home.module.css";
 
 import {
   NavDrop,
-  Logo,
   Footer,
   Masthead,
+  AvailableUnits,
 } from "./pageComponents/floorplansComponents.js";
-
-// const inter = Inter({ subsets: ["latin"] });
 
 export default function Floorplans() {
   return (
@@ -32,7 +30,7 @@ export default function Floorplans() {
 
       <main>
         <NavDrop />
-        <Logo />
+        {/* <Logo /> */}
 
         <Masthead />
       </main>
