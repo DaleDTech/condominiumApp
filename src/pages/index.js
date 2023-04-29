@@ -19,17 +19,17 @@ import {
 // import { popUp, checkCashRegister } from "./scripts/testScript.js";
 // import { msg, PI, addNumbers } from "./scripts/testScript2.js";
 
-function createTitle(title) {
-  if (title) {
-    return title;
-  } else {
-    return "Default title";
-  }
-}
+// function createTitle(title) {
+//   if (title) {
+//     return title;
+//   } else {
+//     return "Default title";
+//   }
+// }
 
-function Header({ title }) {
-  return <h1>{createTitle(title)}</h1>;
-}
+// function Header({ title }) {
+//   return <h1>{createTitle(title)}</h1>;
+// }
 
 export default function Home() {
   return (

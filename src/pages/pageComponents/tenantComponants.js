@@ -1,5 +1,5 @@
 import Head from "next/head";
-import React, { Component } from "react";
+import { React, Component } from "react";
 import ReactDOM from "react-dom";
 import Link from "next/link";
 import Router from "next/router";
@@ -80,4 +80,4 @@ function LoginCard() {
 }
 
 // 👇️ named exports
-export { NavDrop, Logo, Footer, Login };
+export { NavDrop, Logo, Footer, LoginCard };
