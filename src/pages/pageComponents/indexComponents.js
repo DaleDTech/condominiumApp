@@ -24,11 +24,11 @@ function NavDrop() {
   return (
     <Nav className={styles.header}>
       <Link href="undefined">
-        <span className={styles.navLinks}> Home </span>
+        <span className={styles.navLinks}> LUXURY CONDO LOGO </span>
       </Link>
 
       <Link href="undefined">
-        <span className={styles.navLinks}> Floorplans </span>
+        <span className={styles.navLinks}> Availability </span>
       </Link>
 
       <Link href="undefined">
@@ -37,10 +37,6 @@ function NavDrop() {
 
       <Link href="undefined">
         <span className={styles.navLinks}> About Us </span>
-      </Link>
-
-      <Link href="undefined">
-        <span className={styles.navLinks}> LUXURY CONDO LOGO </span>
       </Link>
     </Nav>
   );

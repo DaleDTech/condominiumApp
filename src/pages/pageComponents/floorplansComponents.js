@@ -23,11 +23,11 @@ function NavDrop() {
   return (
     <Nav className={styles.header}>
       <Link href="undefined">
-        <span className={styles.navLinks}> Home </span>
+        <span className={styles.navLinks}> LUXURY CONDO LOGO </span>
       </Link>
 
       <Link href="undefined">
-        <span className={styles.navLinks}> Floorplans </span>
+        <span className={styles.navLinks}> Availability</span>
       </Link>
 
       <Link href="undefined">
@@ -36,10 +36,6 @@ function NavDrop() {
 
       <Link href="undefined">
         <span className={styles.navLinks}> About Us </span>
-      </Link>
-
-      <Link href="undefined">
-        <span className={styles.navLinks}> LUXURY CONDO LOGO </span>
       </Link>
     </Nav>
   );
@@ -77,19 +73,48 @@ function Masthead() {
     <>
       <h1 className={`${styles.floorplanGrid} ${styles.guideBorder}`}>
         {" "}
-        Your Oasis Awaits (curasive )
+        Your Oasis Awaits (curasive and centered)
       </h1>
       <p>
-        This is will be a styled card with a shadow Mauris pellentesque lacus
-        sit amet urna hendrerit, a ornare nisl facilisis. Aliquam erat volutpat.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in
-        nulla sapien
+        This is will be a styled card with a dropshadow with selling points
+        about the owners. Mauris pellentesque lacus sit amet urna hendrerit, a
+        ornare nisl facilisis. Aliquam erat volutpat. Lorem ipsum dolor sit
+        amet, consectetur adipiscing elit. Vivamus in nulla sapien
       </p>
     </>
   );
 }
 
-function AvailableUnits() {
+/**
+
+Ultimately, a full-fleged component with 
+dropdown menus to filter options
+
+For now, just a clickable search bar that accepts a number and
+returns console.log or component/page that returns true
+
+
+
+
+*/
+
+function SearchBar() {
+  return console.log("Found") || console.log("Not Found");
+}
+
+function AvailableUnitCard() {
+  // Image: Pic of Unit
+  // Specs: Beds, Bathroom, Unique Amenities, Number Available
+  // Price: Monthly Price (Based off of current market, design an algo for that?)
+  // Deposit: Fixed Deposit Price
+  // Apply Button
+  // https://www.wilshiremargot.com/floorplans
+  // Card with rounded edges, dropshadow,
+
+  return 0;
+}
+
+function AvailableUnitGrid() {
   return (
     <>
       {/* gallery component */}
@@ -97,7 +122,6 @@ function AvailableUnits() {
         className={`${styles.floorplanMasthead} ${styles.guideBorder}`}
         fluid
       >
-        //need to credit authors
         <Row>
           <Col xs="6" md="4">
             <Image src="/assets/images/photo1.jpg" fluid />
@@ -133,4 +157,4 @@ function AvailableUnits() {
     </>
   );
 } // 👇️ named exports
-export { NavDrop, Footer, Masthead, AvailableUnits };
+export { NavDrop, Footer, Masthead, AvailableUnitGrid };

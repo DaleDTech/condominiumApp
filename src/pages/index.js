@@ -99,14 +99,12 @@ export default function Home() {
       }
     }
   };
-
   var howManyInSlot = (slot) => {
     // get amount in slot
     var valToDiv = slot[1];
     // divide it by denomination
     return valToDiv / denomTable[slot[0]];
   };
-
   // look at the amount and the cash in slot, and returns an arr to push to return array object
   var howMuchFromSlotINeed = (cdew, slott) => {
     //find how many bills can be taken out
@@ -130,12 +128,9 @@ export default function Home() {
       //console.log("after subtraction " + cdew)
       //console.log(Math.round(100*cdew)/100)
       // push each denomToMinus to totalBillsGottenFromSlot
-
       totalBillsGottenFromSlot += denomToMinus;
-
       howManyPossible--;
     }
-
     var returnObject = [
       trackedAmount,
       [slott[0], Math.round(100 * totalBillsGottenFromSlot) / 100],
@@ -143,7 +138,6 @@ export default function Home() {
     //  console.log(returnObject)
     return returnObject;
   };
-
   //console.log("=============================")
   var object;
   for (var index in cid.reverse()) {
@@ -155,26 +149,20 @@ export default function Home() {
     //console.log("**********************************")
   }
   //console.log("=============================")
-
   var totalChangeArr = 0;
-
   //console.log("Total Change Arr is " + totalChangeArr)
-
   var masterChangeArr = [];
   for (var index in changeArr) {
     if (changeArr[index][1] > 0) {
       masterChangeArr.push(changeArr[index]);
     }
   }
-
   //console.log(masterChangeArr);
-
   var loopChangeArr = () => {
     for (var index in masterChangeArr) {
       totalChangeArr += masterChangeArr[index][1];
     }
   };
-
   loopChangeArr();
   var roundedChangeArr = Math.round(100 * totalChangeArr) / 100;
   console.log("Rounded Change Arr is " + roundedChangeArr);
@@ -182,7 +170,6 @@ export default function Home() {
     console.log("rounded Change and roundedCID Are the same");
     return { status: "CLOSED", change: changeArr.reverse() };
   }
-
   var originalChange = cash - price;
   console.log("Change Due is " + originalChange);
   if (originalChange === roundedChangeArr) {
@@ -194,11 +181,9 @@ export default function Home() {
     //console.log(masterChangeArr)
     return returnObject;
   }
-
   if (roundedChangeArr < changeDue) {
     return { status: "INSUFFICIENT_FUNDS", change: [] };
   }
-
   console.log("---------------");
 }`}
       </Script>
@@ -215,7 +200,6 @@ export default function Home() {
         {/* <Logo /> */}
         <NavDrop />
         <PhotoCarousel />
-        <p>Click the following button to see the function in action</p>
         {/* // implement inline script from Script component above */}
         {/* <button
           onClick={() =>
@@ -240,11 +224,9 @@ export default function Home() {
         {/* <button onClick={() => alert(shortFunction())}>
           Click me for script #2!
         </button> */}
-        // regular components
         <CardOne />
         <CardTwo />
       </main>
-
       <Footer />
     </>
   );

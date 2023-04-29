@@ -11,7 +11,7 @@ import {
   NavDrop,
   Footer,
   Masthead,
-  AvailableUnits,
+  AvailableUnitGrid,
 } from "./pageComponents/floorplansComponents.js";
 
 export default function Floorplans() {
@@ -33,6 +33,7 @@ export default function Floorplans() {
         {/* <Logo /> */}
 
         <Masthead />
+        <AvailableUnitGrid />
       </main>
 
       <Footer />
