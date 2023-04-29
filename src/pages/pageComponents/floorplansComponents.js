@@ -156,5 +156,16 @@ function AvailableUnitGrid() {
       </Container>
     </>
   );
-} // 👇️ named exports
-export { NavDrop, Footer, Masthead, AvailableUnitGrid };
+}
+
+//Once "Apply" Button of is clicked, this OAuth Component will pop up for the user to login. Only OAuth used in this App for now.
+function LoginPopUp() {
+  return (
+    <>
+      <h3> OAuth Comp Here against a dimmed background </h3>
+    </>
+  );
+}
+
+// 👇️ named exports
+export { NavDrop, Footer, Masthead, AvailableUnitGrid, LoginPopUp };
