@@ -23,19 +23,19 @@ import {
 function NavDrop() {
   return (
     <Nav className={styles.header}>
-      <Link href="undefined">
+      <Link href="/">
         <span className={styles.navLinks}> LUXURY CONDO LOGO </span>
       </Link>
 
-      <Link href="undefined">
+      <Link href="./floorplans">
         <span className={styles.navLinks}> Availability </span>
       </Link>
 
-      <Link href="undefined">
+      <Link href="./tenantDashboard">
         <span className={styles.navLinks}> Tenant Login </span>
       </Link>
 
-      <Link href="undefined">
+      <Link href="./aboutUs">
         <span className={styles.navLinks}> About Us </span>
       </Link>
     </Nav>

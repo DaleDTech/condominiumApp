@@ -3,13 +3,11 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import { Row, Col, Container, Carousel, Card, Nav } from "react-bootstrap";
 //button in dropdown wrapper
-import { Twirl as Hamburger } from "hamburger-react";
-
 import {
   NavDrop,
   Footer,
   LoginCard,
-} from "./pageComponents/tenantComponents.js";
+} from "./pageComponents/tenantComponants.js";
 
 export default function AboutUs() {
   return (
