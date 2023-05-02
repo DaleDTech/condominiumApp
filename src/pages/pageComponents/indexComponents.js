@@ -152,15 +152,7 @@ function Footer() {
     <footer className={`${styles.footer} ${styles.guideBorder}`}>
       <Container>
         <Row>
-          <Col> Copyrights © Luxury Condo Sales + Rentals 2023</Col>
-        </Row>
-        <Row>
-          {/* social media links */}
-          {/* <Col>
-            <Image src="/assets/socialMediaBar/igFav.png" />
-            <Image src="/assets/socialMediaBar/ttFav.png" />
-            <Image src="/assets/socialMediaBar/liFav.png" />
-          </Col> */}
+          <Col> Copyright 2023 Luxury Condo, LLC </Col>
         </Row>
       </Container>
     </footer>

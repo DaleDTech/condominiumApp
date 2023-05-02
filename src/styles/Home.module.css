@@ -1,8 +1,14 @@
 .footer {
   position: sticky;
+  justify-content: center;
+  text-align: center;
   left:0;
   bottom:0;
   right:0;
+  background-color: #F7F7DF;
+  width: 100%;
+  z-index: 3;
+  font-family: 'Aboreto', cursive;
 }
 
 .header{

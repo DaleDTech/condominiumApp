@@ -51,18 +51,7 @@ function Footer() {
     <footer className={`${styles.footer} ${styles.guideBorder}`}>
       <Container>
         <Row>
-          <Col>
-            {" "}
-            Copyrights © Photography Studio 2021 West Coast Wedding
-            Photographers
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-            <Image src="/assets/socialMediaBar/igFav.png" />
-            <Image src="/assets/socialMediaBar/ttFav.png" />
-            <Image src="/assets/socialMediaBar/liFav.png" />
-          </Col>
+          <Col> Copyright 2023 Luxury Condo, LLC </Col>
         </Row>
       </Container>
     </footer>
