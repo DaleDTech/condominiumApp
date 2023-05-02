@@ -119,33 +119,31 @@ function AvailableUnitGrid() {
       >
         <Row>
           <Col xs="6" md="4">
-            <Image src="/assets/images/photo1.jpg" fluid />
+            {" "}
+            <Image src="/assets/photos/photo9.jpg" alt="First slide" fluid />
           </Col>
           <Col xs="6" md="4">
-            <Image src="/assets/images/photo2.jpg" fluid />
+            {" "}
+            <Image src="/assets/photos/photo10.jpg" alt="First slide" fluid />
           </Col>
 
           <Col xs="12" md="4">
-            <Image src="/assets/images/photo6.jpg" fluid />
+            {" "}
+            <Image src="/assets/photos/photo11.jpg" alt="First slide" fluid />
           </Col>
         </Row>
         <Row>
           <Col xs="12" md="4">
-            <Image src="/assets/images/photo3.jpg" fluid />
+            {" "}
+            <Image src="/assets/photos/photo12.jpg" alt="First slide" fluid />
           </Col>
           <Col xs="6" md="4">
-            <Image
-              src="/assets/images/photo4.jpg"
-              // className={styles.imageBorder}
-              fluid
-            />
+            {" "}
+            <Image src="/assets/photos/photo13.jpg" alt="First slide" fluid />
           </Col>
           <Col xs="12" md="4">
-            <Image
-              src="/assets/images/photo5.jpg"
-              // className={styles.imageBorder}
-              fluid
-            />
+            {" "}
+            <Image src="/assets/photos/photo14.jpg" alt="First slide" fluid />
           </Col>
         </Row>
       </Container>
