@@ -1,13 +1,13 @@
 .footer {
-  position: absolute;
-  /* Set the navbar to fixed position */
-  background-color:rgb(232, 255, 212);
-  bottom: 0; /* Position the navbar at the bottom of the page */
-  width: 100%; /* Full width */
+  position: sticky;
+  left:0;
+  bottom:0;
+  right:0;
 }
 
 .header{
   justify-content: center;
+  text-decoration: none;
   text-align: center;
   font-size: large;
   /*base color of the site*/
@@ -16,30 +16,33 @@
   border-width: .6pt;
   width: 100%;
   /* https://gomakethings.com/how-to-create-a-sticky-navigation-with-only-css/ */
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 3;
   font-family: 'Aboreto', cursive;
   /* margin-bottom: 50px; */
 }
-
-
+.navBar{
+  margin-bottom: 20.0px;
+  justify-content: center;
+  text-align: center;
+}
 /* To be used by each link */
 .navLinks{
-  margin: 50.69px;
+  margin: 20px;
   color: black;
   text-decoration: none;
-
 }
-
 .logo{
-  padding: 5.69px;
-
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: black;
+  text-decoration: none;
 }
 
 .indexCarousel{
-  margin: 15px;
+  position: static;
+  margin-top: 169px;
   padding: 15px;
   filter: drop-shadow(38px 32px 65px #7A7979);
   z-index: -3;

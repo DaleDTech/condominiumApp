@@ -20,23 +20,29 @@ import styles from "@/styles/Home.module.css";
 
 function NavDrop() {
   return (
-    <Nav className={styles.header}>
-      <Link href="/">
-        <span className={styles.navLinks}> LUXURY CONDO LOGO </span>
-      </Link>
+    <div className={styles.header}>
+      <div className={styles.logo}>
+        <Link href="/">
+          <span> LUXURY CONDO LOGO </span>
+        </Link>
+      </div>
 
-      <Link href="./floorplans">
-        <span className={styles.navLinks}> Availability </span>
-      </Link>
+      <br />
 
-      <Link href="./tenantDashboard">
-        <span className={styles.navLinks}> Tenant Login </span>
-      </Link>
+      <Nav className={styles.navBar}>
+        <Link href="./floorplans">
+          <span className={styles.navLinks}> Availability </span>
+        </Link>
 
-      <Link href="./aboutUs">
-        <span className={styles.navLinks}> About Us </span>
-      </Link>
-    </Nav>
+        <Link href="./tenantDashboard">
+          <span className={styles.navLinks}> Tenant Login </span>
+        </Link>
+
+        <Link href="./aboutUs">
+          <span className={styles.navLinks}> About Us </span>
+        </Link>
+      </Nav>
+    </div>
   );
 }
 
