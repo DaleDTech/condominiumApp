@@ -60,27 +60,25 @@ function Footer() {
 
 function HistoryGrid() {
   return (
-    <>
-      <Container>
-        {/* horizontal images */}
-        <Row>
-          <Col> </Col> <Col> </Col> <Col> </Col>
-        </Row>
+    <Container>
+      {/* horizontal images */}
+      <Row>
+        <Col> </Col> <Col> </Col> <Col> </Col>
+      </Row>
 
-        {/* Verical images */}
+      {/* Verical images */}
 
-        <Row>
-          <Col> </Col>
+      <Row>
+        <Col> </Col>
 
-          <Col> </Col>
-        </Row>
+        <Col> </Col>
+      </Row>
 
-        {/* horizontal images */}
-        <Row>
-          <Col> </Col> <Col> </Col> <Col> </Col>
-        </Row>
-      </Container>
-    </>
+      {/* horizontal images */}
+      <Row>
+        <Col> </Col> <Col> </Col> <Col> </Col>
+      </Row>
+    </Container>
   );
 }
 // https://react-bootstrap.github.io/forms/form-control/
@@ -88,8 +86,10 @@ function HistoryGrid() {
 function AboutUsSummary() {
   return (
     <>
-      <Container className={`${styles.aboutUs} ${styles.guideBorder}`}>
-        <h1> ABOUT US (cursive )</h1>
+      <Container
+        className={`${styles.floorplanMasthead} ${styles.guideBorder}`}
+      >
+        <h1> ABOUT US </h1>
       </Container>
 
       <Container className={`${styles.aboutUs} ${styles.guideBorder}`}>

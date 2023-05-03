@@ -54,6 +54,8 @@
   z-index: -3;
 }
 
+
+
 .indexCards {
   margin: 15px;
   padding: 15px;
@@ -71,7 +73,9 @@
 }
 
 .floorplanMasthead{
-  margin: 15px;
+  text-align: center;
+  position: static;
+  margin-top: 169px;
   padding: 15px;
   filter: drop-shadow(38px 32px 65px #7A7979);
   border-radius: 30px;
@@ -88,7 +92,6 @@
 
 .dashboardLogin{
   margin:15px;
-
   padding: 15px;
   filter: drop-shadow(38px 32px 65px #7A7979);
   border-radius: 30px;
@@ -96,8 +99,10 @@
 }
 
 .aboutUs{
-  margin:15px;
-
+  margin-top: 15px;
+  margin-bottom: 15px;
+  justify-content: center;
+  text-align: center;
   padding: 15px;
   filter: drop-shadow(38px 32px 65px #7A7979);
   border-radius: 30px;

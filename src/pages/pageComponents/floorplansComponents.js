@@ -66,7 +66,7 @@ function Footer() {
 function Masthead() {
   return (
     <>
-      <h1 className={`${styles.floorplanGrid} ${styles.guideBorder}`}>
+      <h1 className={`${styles.floorplanMasthead} ${styles.guideBorder}`}>
         {" "}
         Your Oasis Awaits (curasive and centered)
       </h1>

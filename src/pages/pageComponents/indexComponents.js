@@ -97,7 +97,7 @@ function CardOne() {
         <Row>
           <Col>
             {" "}
-            <Image src="/assets/photos/photo5.jpg" alt="First slide" fluid />
+            <Image src="/assets/photos/photo17.jpg" alt="First slide" fluid />
           </Col>
 
           <Col>
@@ -130,7 +130,7 @@ function CardTwo() {
 
           <Col>
             {" "}
-            <Image src="/assets/photos/photo6.jpg" alt="First slide" fluid />
+            <Image src="/assets/photos/photo15.jpg" alt="First slide" fluid />
           </Col>
         </Row>
       </Container>
