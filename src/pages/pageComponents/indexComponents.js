@@ -20,12 +20,20 @@ import {
 
 // https://react-bootstrap.github.io/components/navs/
 
+// function Logo() {
+//   return <h1 className={styles.logo}> Luxury Condo Management </h1>;
+// }
+
+function Logo() {
+  return <h1 className={styles.logo}> Luxury Condo Management </h1>;
+}
+
 function NavDrop() {
   return (
     <div className={styles.header}>
       <div className={styles.logo}>
         <Link href="/">
-          <span> LUXURY CONDO LOGO </span>
+          <Logo />
         </Link>
       </div>
 
@@ -137,15 +145,6 @@ function CardTwo() {
     </Card>
   );
 }
-
-// function Logo() {
-//   return (
-//     <h1 className={`${styles.logo} ${styles.guideBorder}`}>
-//       {" "}
-//       Luxury Condo Management{" "}
-//     </h1>
-//   );
-// }
 
 function Footer() {
   return (

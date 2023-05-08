@@ -18,12 +18,16 @@ import {
 
 import styles from "@/styles/Home.module.css";
 
+function Logo() {
+  return <h1 className={styles.logo}> Luxury Condo Management </h1>;
+}
+
 function NavDrop() {
   return (
     <div className={styles.header}>
       <div className={styles.logo}>
         <Link href="/">
-          <span> LUXURY CONDO LOGO </span>
+          <Logo />
         </Link>
       </div>
 
@@ -44,10 +48,6 @@ function NavDrop() {
       </Nav>
     </div>
   );
-}
-
-function Logo() {
-  return <h1 className={`${styles.logo}`}> Wedding Photographs, LLC </h1>;
 }
 
 function Footer() {

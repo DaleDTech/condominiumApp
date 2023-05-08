@@ -19,12 +19,16 @@ import {
   NavDropdown,
 } from "react-bootstrap";
 
+function Logo() {
+  return <h1 className={styles.logo}> Luxury Condo Management </h1>;
+}
+
 function NavDrop() {
   return (
     <div className={styles.header}>
       <div className={styles.logo}>
         <Link href="/">
-          <span> LUXURY CONDO LOGO </span>
+          <Logo />
         </Link>
       </div>
 
@@ -46,10 +50,6 @@ function NavDrop() {
     </div>
   );
 }
-
-// function Logo() {
-//   return <h1> Luxury Condo, LLC </h1>;
-// }
 
 function Footer() {
   return (

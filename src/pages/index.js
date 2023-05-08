@@ -194,7 +194,6 @@ export default function Home() {
       </Script> */}
 
       <main>
-        {/* <Logo /> */}
         <NavDrop />
         <PhotoCarousel />
         {/* // implement inline script from Script component above */}
