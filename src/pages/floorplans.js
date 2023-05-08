@@ -11,6 +11,7 @@ import {
   NavDrop,
   Footer,
   Masthead,
+  InquiryForm,
   AvailableUnitGrid,
 } from "./pageComponents/floorplansComponents.js";
 
@@ -33,6 +34,9 @@ export default function Floorplans() {
         {/* <Logo /> */}
 
         <Masthead />
+
+        <InquiryForm className={styles.guideBorder} />
+
         <AvailableUnitGrid />
       </main>
 

@@ -62,29 +62,28 @@ function Footer() {
   );
 }
 
-function HistoryGrid() {
-  return (
-    <Container>
-      {/* horizontal images */}
-      <Row>
-        <Col> </Col> <Col> </Col> <Col> </Col>
-      </Row>
+//   return (
+//     <Container>
+//       {/* horizontal images */}
+//       <Row>
+//         <Col> </Col> <Col> </Col> <Col> </Col>
+//       </Row>
 
-      {/* Verical images */}
+//       {/* Verical images */}
 
-      <Row>
-        <Col> </Col>
+//       <Row>
+//         <Col> </Col>
 
-        <Col> </Col>
-      </Row>
+//         <Col> </Col>
+//       </Row>
 
-      {/* horizontal images */}
-      <Row>
-        <Col> </Col> <Col> </Col> <Col> </Col>
-      </Row>
-    </Container>
-  );
-}
+//       {/* horizontal images */}
+//       <Row>
+//         <Col> </Col> <Col> </Col> <Col> </Col>
+//       </Row>
+//     </Container>
+//   );
+// }
 // https://react-bootstrap.github.io/forms/form-control/
 //
 function AboutUsSummary() {
@@ -113,4 +112,4 @@ function AboutUsSummary() {
 }
 
 // 👇️ named exports
-export { NavDrop, Footer, AboutUsSummary, HistoryGrid };
+export { NavDrop, Footer, AboutUsSummary };

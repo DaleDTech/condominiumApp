@@ -160,5 +160,63 @@ function LoginPopUp() {
   );
 }
 
+function InquiryForm() {
+  return (
+    <>
+      <Container
+        className={`${styles.maintanenceContactFormStyle} ${styles.guideBorder}`}
+      >
+        <span>
+          <p>
+            Please fill out the form below to get on our waiting list and tell
+            us about yourself!
+          </p>
+        </span>
+      </Container>
+      <br />
+      <br />
+
+      <Container className={`${styles.firstName} ${styles.guideBorder}`}>
+        {" "}
+        First Name{" "}
+      </Container>
+      <br />
+      <br />
+      <br />
+      <Container className={`${styles.lastName} ${styles.guideBorder}`}>
+        {" "}
+        Last Name{" "}
+      </Container>
+      <br />
+      <br />
+      <br />
+
+      <Container className={`${styles.email} ${styles.guideBorder}`}>
+        {" "}
+        Email{" "}
+      </Container>
+      <br />
+      <br />
+      <br />
+      <Container
+        className={`${styles.contactMessageForm} ${styles.guideBorder}`}
+      >
+        {" "}
+        <span> (optional) </span>
+        <br />
+        <br />
+        <span> Any questions ? </span>
+      </Container>
+    </>
+  );
+}
+
 // 👇️ named exports
-export { NavDrop, Footer, Masthead, AvailableUnitGrid, LoginPopUp };
+export {
+  NavDrop,
+  Footer,
+  Masthead,
+  AvailableUnitGrid,
+  LoginPopUp,
+  InquiryForm,
+};

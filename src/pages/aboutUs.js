@@ -30,8 +30,6 @@ export default function AboutUs() {
         <NavDrop />
 
         <AboutUsSummary />
-
-        <HistoryGrid />
       </main>
 
       <Footer />

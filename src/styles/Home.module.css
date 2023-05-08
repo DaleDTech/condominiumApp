@@ -116,7 +116,7 @@
   z-index: -3;
 }
 
-.maintanenceContactForm{
+.maintanenceContactFormStyle{
   margin: 15px;
   padding: 15px;
   filter: drop-shadow(38px 32px 65px #7A7979);
@@ -130,3 +130,24 @@
   border-width: 3.5px;
 }
 
+.contactMessageForm{
+
+
+}
+
+.firstName {
+
+
+}
+
+.lastName {
+
+
+}
+
+.inquiryForm{
+  margin-top: 25.69px;
+  margin-bottom: 25.69px;
+  
+
+}
