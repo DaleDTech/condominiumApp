@@ -89,6 +89,16 @@
   z-index: -3;
 }
 
+.historyGrid{
+  text-align: center;
+  position: static;
+  margin-top: 169px;
+  padding: 15px;
+  filter: drop-shadow(38px 32px 65px #7A7979);
+  border-radius: 30px;
+  z-index: -3;
+}
+
 .floorplanGrid{ 
   margin: 15px;
   padding: 15px;

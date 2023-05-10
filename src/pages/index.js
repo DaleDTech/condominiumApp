@@ -192,7 +192,7 @@ export default function Home() {
         }
       `}
       </Script> */}
-
+      {/* difference between adding CSS classes */}
       <main className={styles.guideBorder2}>
         <div className="guideBorder3">
           <NavDrop />

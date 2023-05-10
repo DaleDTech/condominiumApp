@@ -111,5 +111,34 @@ function AboutUsSummary() {
   );
 }
 
+function FoundersFrame() {
+  return (
+    <>
+      {/* gallery component */}
+      <Container
+        className={`${styles.historyGrid} ${styles.guideBorder}`}
+        fluid
+      >
+        <Row>
+          <Col xs="6" md="4">
+            {" "}
+            <Image src="/assets/photos/photo26.jpg" alt="First slide" fluid />
+          </Col>
+
+          <Col xs="6" md="4">
+            {" "}
+            <Image src="/assets/photos/photo27.jpg" alt="First slide" fluid />
+          </Col>
+
+          <Col xs="12" md="4">
+            {" "}
+            <Image src="/assets/photos/photo28.jpg" alt="First slide" fluid />
+          </Col>
+        </Row>
+      </Container>
+    </>
+  );
+}
+
 // 👇️ named exports
-export { NavDrop, Footer, AboutUsSummary };
+export { NavDrop, Footer, AboutUsSummary, FoundersFrame };

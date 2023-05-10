@@ -9,7 +9,7 @@ import {
   NavDrop,
   Footer,
   AboutUsSummary,
-  HistoryGrid,
+  FoundersFrame,
 } from "./pageComponents/aboutUsComponents.js";
 
 export default function AboutUs() {
@@ -28,8 +28,8 @@ export default function AboutUs() {
 
       <main>
         <NavDrop />
-
         <AboutUsSummary />
+        <FoundersFrame />
       </main>
 
       <Footer />
