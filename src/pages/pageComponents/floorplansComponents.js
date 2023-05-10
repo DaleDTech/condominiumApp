@@ -120,30 +120,30 @@ function AvailableUnitGrid() {
         <Row>
           <Col xs="6" md="4">
             {" "}
-            <Image src="/assets/photos/photo9.jpg" alt="First slide" fluid />
+            <Image src="/assets/photos/photo19.jpg" alt="First slide" fluid />
           </Col>
           <Col xs="6" md="4">
             {" "}
-            <Image src="/assets/photos/photo10.jpg" alt="First slide" fluid />
+            <Image src="/assets/photos/photo20.jpg" alt="First slide" fluid />
           </Col>
 
           <Col xs="12" md="4">
             {" "}
-            <Image src="/assets/photos/photo11.jpg" alt="First slide" fluid />
+            <Image src="/assets/photos/photo21.jpg" alt="First slide" fluid />
           </Col>
         </Row>
         <Row>
           <Col xs="12" md="4">
             {" "}
-            <Image src="/assets/photos/photo12.jpg" alt="First slide" fluid />
+            <Image src="/assets/photos/photo22.jpg" alt="First slide" fluid />
           </Col>
           <Col xs="6" md="4">
             {" "}
-            <Image src="/assets/photos/photo13.jpg" alt="First slide" fluid />
+            <Image src="/assets/photos/photo23.jpg" alt="First slide" fluid />
           </Col>
           <Col xs="12" md="4">
             {" "}
-            <Image src="/assets/photos/photo14.jpg" alt="First slide" fluid />
+            <Image src="/assets/photos/photo24.jpg" alt="First slide" fluid />
           </Col>
         </Row>
       </Container>
@@ -159,13 +159,11 @@ function LoginPopUp() {
     </>
   );
 }
-
+//will put forms here for firebase
 function InquiryForm() {
   return (
-    <>
-      <Container
-        className={`${styles.maintanenceContactFormStyle} ${styles.guideBorder}`}
-      >
+    <div className={styles.guideBorder}>
+      <Container className={`${styles.maintanenceContactFormStyle} `}>
         <span>
           <p>
             Please fill out the form below to get on our waiting list and tell
@@ -207,7 +205,7 @@ function InquiryForm() {
         <br />
         <span> Any questions ? </span>
       </Container>
-    </>
+    </div>
   );
 }
 

@@ -193,9 +193,12 @@ export default function Home() {
       `}
       </Script> */}
 
-      <main>
-        <NavDrop />
-        <PhotoCarousel />
+      <main className={styles.guideBorder2}>
+        <div className="guideBorder3">
+          <NavDrop />
+
+          <PhotoCarousel />
+        </div>
         {/* // implement inline script from Script component above */}
         {/* <button
           onClick={() =>
